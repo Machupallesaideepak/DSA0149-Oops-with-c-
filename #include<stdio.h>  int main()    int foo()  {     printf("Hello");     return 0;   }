@@ -1,0 +1,8 @@
+#include<stdio.h> 
+int main() 
+ 
+int foo() 
+{ 
+   printf("Hello"); 
+   return 0;  
+}
