@@ -1,0 +1,20 @@
+
+#include<iostream>
+using namespace std;
+int main(){
+	int areac,r;
+	cout<<"area of circle"<<endl;
+	cout<<"radius of circle:";
+	cin>>r;
+	areac=3.14*r*r;
+	cout<<"area of circle:"<<areac<<endl;
+	int arear,l,b;
+	cout<<"To find area of rectangle"<<endl;
+	cout<<"length:";
+	cin>>l;
+	cout<<"breadth";
+	cin>>b;
+	arear=l*b;
+	cout<<"area of rectangle:"<<arear;
+	return 0;
+}
